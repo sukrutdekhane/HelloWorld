@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'The pipeline is in build stage'
+                sh'python helloworld.py'
             }
         }
         
